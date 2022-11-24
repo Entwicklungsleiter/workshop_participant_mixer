@@ -21,6 +21,7 @@
         "symfony/expression-language": "6.1.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "6.1.*",
+        "symfony/maker-bundle": "^1.48",
         "symfony/property-access": "6.1.*",
         "symfony/property-info": "6.1.*",
         "symfony/proxy-manager-bridge": "6.1.*",
@@ -31,7 +32,8 @@
         "symfony/validator": "6.1.*",
         "symfony/yaml": "6.1.*",
         "twig/extra-bundle": "^2.12|^3.0",
-        "twig/twig": "^2.12|^3.0"
+        "twig/twig": "^2.12|^3.0",
+        "zenstruck/foundry": "^1.23"
     },
     "config": {
         "allow-plugins": {
@@ -84,5 +86,8 @@
             "allow-contrib": false,
             "require": "6.1.*"
         }
+    },
+    "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.4"
     }
 }
